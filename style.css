@@ -1,0 +1,85 @@
+/* $blue: #3589C1;
+$white: #FCFCFC;
+$yellow: #F79221;
+$lightgrey: #707070;
+$darkgrey: #626262;
+$black: #000000; */
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  height: 4em;
+}
+
+.navtitle {
+  color: #3589c1;
+  font-size: 1em;
+  margin-left: 2em;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #707070;
+}
+
+.navlink:not(:last-child) {
+  margin-left: 6em;
+  margin-right: 3em;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: #3589c1;
+  background-image: url("./assets/fusee-robot.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 37.5em 17.5em;
+  height: 17.5em;
+}
+
+.cover-button {
+  text-decoration: none;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: #f79221;
+  padding: 1em 3em;
+  border-radius: 2px;
+}
+
+.articles {
+  height: 20em;
+  background-color: white;
+}
+
+footer {
+  background-color: #3589c1;
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: white;
+}
